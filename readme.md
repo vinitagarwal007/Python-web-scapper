@@ -3,16 +3,16 @@
 
 <h1>the following SQL table was used to save the data</h1>
 <p>
-CREATE TABLE `data` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `name` text,
-  `composition` text,
-  `company` text,
-  `use_med` text,
-  `side_effect` text,
-  `packing` text,
-  `mrp` varchar(100) DEFAULT NULL,
-  `onemglink` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+CREATE TABLE `data` (<br>
+  `id` int NOT NULL AUTO_INCREMENT,<br>
+  `name` text,<br>
+  `composition` text,<br>
+  `company` text,<br>
+  `use_med` text,<br>
+  `side_effect` text,<br>
+  `packing` text,<br>
+  `mrp` varchar(100) DEFAULT NULL,<br>
+  `onemglink` varchar(1000) DEFAULT NULL,<br>
+  PRIMARY KEY (`id`)<br>
 )
 </p>
